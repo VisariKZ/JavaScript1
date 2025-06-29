@@ -26,4 +26,18 @@ let apellido = prompt("¿Cual es tu apellido?")
 
 console.log(apellido)
 
-console.log( 0.1 + 0.2 )
+let valor1 = 0.1
+
+let valor2 = 0.2
+
+let valorRaro = valor1 + valor2
+
+console.log( valorRaro.toFixed(2) )
+
+const PI = 3.14
+
+const URL = "www.google.com"
+
+const nombreUsuarioActual = "Matias"
+
+console.warn("Esto es un error")
